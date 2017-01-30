@@ -14,9 +14,9 @@ rvm --default use ruby-2.3.3 &
 apt-get install nodejs &
 rvm gemset use global &
 echo "gem: --no-document" >> ~/.gemrc &
-gem update &
 gem install bundler &
 gem install nokogiri &
+gem update &
 rvm use ruby-2.3.3@rails5.0 --create &
 gem install rails &
 ruby -v &
