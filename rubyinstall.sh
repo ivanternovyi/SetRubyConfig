@@ -16,6 +16,7 @@ rvm gemset use global &
 echo "gem: --no-document" >> ~/.gemrc &
 gem install bundler &
 gem install nokogiri &
+gem install sqlite3 &
 gem update &
 rvm use ruby-2.3.3@rails5.0 --create &
 gem install rails &
